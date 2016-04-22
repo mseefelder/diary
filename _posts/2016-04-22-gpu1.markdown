@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "GPU Computing Diaries - Day 1"
+date:   2016-04-22 16:33:54 -0300
+categories: gpu-3computing
+---
+
+So here I am, April 2016, determined to learn GPU computing other than OpenGL shaders. Feeling somewhat limited by compute shaders, and eager for more control over what happens on the bit-side of things **I leap into the void**...
+
+**OpenCL** or **CUDA**?
+
+Well... Sincerely I would prefer OpenCL for its philosophy, but I'm gonna be using a notebook with a NVidia GT 630M + Ubuntu, and CUDA turned out to be easiest. 
+
+'Why?', you ask.
+
+I followed the lazy path, opened *synaptic* and installed [1] the packages for CUDA and OpenCL. Grabbed a code example of each and tried compiling.
+
+While the CUDA example compiled and executed *flawlessly*, the OpenCL one didn't even compile. I searched through the interwebs for a solution, but the ones I found didn't solve my issue. So, I'm postponing my OpenCL adventure and sticking with CUDA for now.
+
+I didn't do much afterwards but ponder about some aspects of the CUDA example and plan my first CUDA project.
+
+My main concerns are about choosing the dimensions of a kernel dipatch. Probably I'll write more on the subject later.
+
+And for my first project I will try to code massively parallel [Harris Detector](https://en.wikipedia.org/wiki/Corner_detection#The_Harris_.26_Stephens_.2F_Plessey_.2F_Shi.E2.80.93Tomasi_corner_detection_algorithms), which shall be the subject of my next entries.1
+
+#### The examples I used:
+
+##### The CUDA one
+
+https://devblogs.nvidia.com/parallelforall/easy-introduction-cuda-c-and-c/
+
+##### The OpenCL one:
+
+The answer by *Farzad* at:
+http://stackoverflow.com/questions/26517114/how-to-compile-opencl-project-with-kernels
+
+### Some cool links I wanna bookmark:
+
+https://developer.nvidia.com/how-to-cuda-c-cpp
+
+https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/
+
+### [1] Installation:
+
+For Linux, I read this page for reference...
+
+http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/
+
+but ended up opening *synaptic* (Ubuntu's package manager + GUI)
+	
+	sudo synaptic
+
+and installing `nvidia-cuda-toolkit` alongside its dependencies.
