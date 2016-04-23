@@ -27,24 +27,24 @@ And for my first project I will try to code massively parallel [Harris Detector]
 
 ##### The CUDA one
 
-https://devblogs.nvidia.com/parallelforall/easy-introduction-cuda-c-and-c/
+[https://devblogs.nvidia.com/parallelforall/easy-introduction-cuda-c-and-c/](https://devblogs.nvidia.com/parallelforall/easy-introduction-cuda-c-and-c/)
 
 ##### The OpenCL one:
 
 The answer by *Farzad* at:
-http://stackoverflow.com/questions/26517114/how-to-compile-opencl-project-with-kernels
+[http://stackoverflow.com/questions/26517114/how-to-compile-opencl-project-with-kernels](http://stackoverflow.com/questions/26517114/how-to-compile-opencl-project-with-kernels)
 
 ### Some cool links I wanna bookmark:
 
-https://developer.nvidia.com/how-to-cuda-c-cpp
+[https://developer.nvidia.com/how-to-cuda-c-cpp](https://developer.nvidia.com/how-to-cuda-c-cpp)
 
-https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/
+[https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/](https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/)
 
 ### [1] Installation:
 
 For Linux, I read this page for reference...
 
-http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/
+[http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/](http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/)
 
 but ended up opening *synaptic* (Ubuntu's package manager + GUI)
 	
